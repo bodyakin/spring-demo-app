@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-demo-app
+
+async:
+  max-pool-size: 2
+  pool-size: 2
+  queue-capacity: 10
+  thread-name-prefix: super-executor

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Scheduler {
 
-    @Scheduled(fixedRate = 1000)
+    @Scheduled(fixedRate = 15000)
     public void schedule() {
         System.out.println("Oh hi!");
     }
