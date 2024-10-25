@@ -3,7 +3,7 @@ spring:
     name: spring-demo-app
 
 async:
-  max-pool-size: 2
-  pool-size: 2
+  max-pool-size: 5
+  pool-size: 5
   queue-capacity: 10
   thread-name-prefix: super-executor

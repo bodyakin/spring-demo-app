@@ -17,4 +17,5 @@ public class BenchmarkAspect {
         System.out.println(String.format("Time to execution %dms", end - start));
         return result;
     }
+
 }
